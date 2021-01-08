@@ -1,0 +1,24 @@
+.home-wrapper {
+    color: white;
+    height: 100vh;
+    background: url("../assets/img/about_background.png") top no-repeat;
+    background-size: cover;
+    padding: 31.5px 0 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    justify-content: space-between;
+    .header__anchor {
+        color: white;
+    }
+    .home__img-cont {
+        margin: 0 auto;
+        width: 32px;
+        height: 32px;
+    }
+    .home__img {
+        width: 100%;
+        height: 100%;
+    }
+}

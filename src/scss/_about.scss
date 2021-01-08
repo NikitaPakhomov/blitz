@@ -1,0 +1,32 @@
+.about-wrapper {
+    margin-top: 31.5px;
+    height: 100vh;
+    max-height: 100vh;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 90vw;
+        border-bottom: 1px solid #bebebe;
+        top: 35.3px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .header__anchor {
+        color: #bebebe;
+    }
+    .about__main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        .about__img-cont {
+            .about__img {
+                display: block;
+                object-fit: contain;
+                object-position: center center;
+                width: 100%;
+            }
+        }
+    }
+}

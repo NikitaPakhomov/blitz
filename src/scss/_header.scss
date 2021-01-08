@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    height: 34px;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 90vw;
+        border-bottom: 1px solid white;
+        top: 35.3px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .header__navigation {
+        margin: 0 auto;
+    }
+    .header__ul {
+        display: flex;
+        list-style: none;
+    }
+    .header__li {
+        margin-right: 51px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .header__anchor {
+        text-decoration: none;
+        color: black;
+    }
+}
